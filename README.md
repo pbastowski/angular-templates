@@ -27,6 +27,8 @@ import appTemplate from './app.html'
 
 In this way this package can be used with either AngularJS or Angular2 (or anything else that you might want to use it with).
 
+> Please remember to remove the `blaze-html-templates` Meteor package from your project, because you will get error messages if you don't.
+
 ## Changelog
 
 #### 2016-04-06 Initial version 1.3.0
