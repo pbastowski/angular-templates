@@ -1,7 +1,7 @@
 Package.describe({
   name: 'pbastowski:angular-templates',
   summary: 'Compile angular templates and return them as a string that can be imported',
-  version: '1.3.0',
+  version: '1.3.1',
   git: 'https://github.com/pbastowski/angular-templates.git',
   documentation: 'README.md'
 });

@@ -31,6 +31,9 @@ In this way this package can be used with either AngularJS or Angular2 (or anyth
 
 ## Changelog
 
+#### 2016-04-06 Initial version 1.3.1
+Removed an debug console.log.
+
 #### 2016-04-06 Initial version 1.3.0
 
 The reason this package starts with version 1.3.0 is to signify that it meant for Meteor 1.3 or higher. It may work with older versions of Meteor, if you provide the appropriate module loaders, but not actual testing has been performed to confirm this hypothesis.
