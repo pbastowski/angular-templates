@@ -111,7 +111,7 @@ var minifyHtml = function(html) {
 function wrapAngularTemplate(id, contents) {
   //return "angular.module('angular-templates').run(['$templateCache', function($templateCache) { $templateCache.put('" +
   //  id + "'," + JSON.stringify(contents) + ");}]);";
-  return 'module.exports = "' + clean(contents) + '"; return module.exports;'
+  return 'module.exports = "' + clean(contents) + '";'
 }
 
 function clean(src) {

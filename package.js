@@ -1,7 +1,7 @@
 Package.describe({
   name: 'pbastowski:angular-templates',
   summary: 'Compile angular templates and return them as a string that can be imported',
-  version: '1.3.1',
+  version: '1.3.2',
   git: 'https://github.com/pbastowski/angular-templates.git',
   documentation: 'README.md'
 });
@@ -33,5 +33,5 @@ Package.onUse(function(api) {
   //api.use('angular-meteor-data@1.3.9', 'client', { weak: true });
   //api.use('angular:angular@1.4.8', 'client', { weak: true });
 
-  api.addFiles('templates-handler.js', 'client');
+  // api.addFiles('templates-handler.js', 'client');
 });

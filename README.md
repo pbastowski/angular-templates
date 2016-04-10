@@ -31,6 +31,11 @@ In this way this package can be used with either AngularJS or Angular2 (or anyth
 
 ## Changelog
 
+#### 2016-04-10 version 1.3.2
+- Removed templates-handler.js, because this package does not use or depend on angular modules.
+- Cleaned up some code.
+
+
 #### 2016-04-06 Initial version 1.3.1
 Removed an debug console.log.
 

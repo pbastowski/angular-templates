@@ -18,6 +18,8 @@ NgCachingHtmlCompiler = class NgCachingHtmlCompiler extends CachingHtmlCompiler 
     }
 
     const inputPath = packagePrefix + inputFile.getPathInPackage();
+    // console.log('! caching-html-compiler:', inputPath);
+
     try {
       const tags = this.tagScannerFunc({
         sourceName: inputPath,
